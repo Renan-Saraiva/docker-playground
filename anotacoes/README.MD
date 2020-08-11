@@ -17,3 +17,6 @@
 #docker container exec -it container2 ping 172.17.0.3
 
 #docker-compose exec db psql -U postgres -d email_sender -c "select * from emails"
+
+
+http://files.cod3r.com.br/apostila-docker.pdf
