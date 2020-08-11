@@ -8,7 +8,12 @@
 * Podemos escalar um unico serviço de uma composição usando o comando 'docker-compose up -d --scale worker=3' (--scale nome_do_servico=número_de_instancias)
 * Podemos definir as variaveis de ambiente em um arquivo isolado, e referenciar o mesmo dentro do nosso arquivo docker-compose.yml
 
+
+
 #docker container run -d --name container1 alpine sleep 1000
+
 #docker container exec -it container1 ifconfig
+
 #docker container exec -it container2 ping 172.17.0.3
+
 #docker-compose exec db psql -U postgres -d email_sender -c "select * from emails"
